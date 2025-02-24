@@ -1,0 +1,2 @@
+# **NeuroGuard**
+   - Leverages machine learning to predict stroke risk based on user-provided health data. The process involves user input collection, data transmission to the server, model prediction, and displaying the result back to the user.
