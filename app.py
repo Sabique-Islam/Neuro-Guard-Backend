@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-stroke_model = joblib.load("model.joblib")
+stroke_model = joblib.load("./model.joblib")
 
 def predict_input(single_input):
     input_df = pd.DataFrame([single_input])
