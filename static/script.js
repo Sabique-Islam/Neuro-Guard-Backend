@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             smoking_status: document.getElementById("smoking_status").value
         };
 
-        fetch("https://neuro-guard-backend.vercel.app/api/data", {
+        fetch("https://neuro-guard-backend.onrender.com/api/data", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
